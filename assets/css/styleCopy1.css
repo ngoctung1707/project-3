@@ -133,14 +133,14 @@ a {
   line-height: 1.67; /* 166.667% */
 }
 
-.hero_row {
+.hero__row {
   margin-top: 38px;
   display: flex;
   align-items: center;
   column-gap: 38px;
 }
 
-.hero_row .btn{
+.hero__row .btn {
   line-height: 60px;
 }
 
@@ -149,7 +149,6 @@ a {
   text-align: center;
   font-size: 1.8rem;
   line-height: 1.67; /* 166.667% */
-  
 }
 
 .hero__images {
@@ -159,8 +158,8 @@ a {
 }
 
 .hero__img {
-    border-radius: 6px;
-    object-fit: cover;
+  border-radius: 6px;
+  object-fit: cover;
 }
 
 .hero__img--large {
