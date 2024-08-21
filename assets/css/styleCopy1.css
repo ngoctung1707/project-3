@@ -140,11 +140,16 @@ a {
   column-gap: 38px;
 }
 
+.hero_row .btn{
+  line-height: 60px;
+}
+
 .hero__phone {
   color: #fff;
   text-align: center;
   font-size: 1.8rem;
   line-height: 1.67; /* 166.667% */
+  
 }
 
 .hero__images {
