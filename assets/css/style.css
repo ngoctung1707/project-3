@@ -630,3 +630,34 @@ a {
   text-decoration: underline;
   font-size: 1.6rem;
 }
+
+/* ==============appoinment============= */
+
+.appoinment {
+  margin: 85px 0;
+}
+
+.appoinment__inner {
+  padding: 100px 178px;
+  background: #f6fbff;
+  text-align: center;
+}
+
+.appoinment__heading::after {
+  content: "";
+  display: block;
+  width: 136px;
+  height: 2px;
+  background: #2E80CE;
+  margin: 18px auto 0;
+}
+
+.appoinment__desc{
+  margin-top: 18px;
+  max-width: 617px;
+  margin: 18px auto 0;
+}
+
+.appoinment__btn{
+  margin-top: 38px;
+}
