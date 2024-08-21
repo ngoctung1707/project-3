@@ -38,7 +38,6 @@ a {
   font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.67; /* 166.667% */
   border-radius: 99px;
 }
 
@@ -273,7 +272,6 @@ a {
 
 .service__btn {
   margin-top: 55px;
-  line-height: 60px;
 }
 
 /* ==================work================= */
@@ -336,4 +334,60 @@ a {
   font-weight: 500;
   text-decoration: underline;
   transition: 0.4s;
+}
+
+/* =============== about ================== */
+
+.about {
+  margin-top: 85px;
+  padding: 85px 0 206px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 491px;
+}
+
+.about__media {
+  width: 49%;
+}
+
+.about-content {
+  width: 40%;
+}
+
+.about__images {
+  display: flex;
+  position: relative;
+  top: -61px;
+}
+
+.about__img {
+  border-radius: 6px;
+}
+
+.about__img--large {
+  display: flex;
+  width: 512px;
+  height: 370px;
+  flex-shrink: 0;
+  object-fit: fill;
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.07);
+}
+
+.about__img--small {
+  width: 332px;
+  height: 370px;
+  flex-shrink: 0;
+  top: 121px;
+  left: -274px;
+  position: absolute;
+  top: 121px;
+  left: 238px;
+}
+
+.about__btn {
+  margin-top: 38px;
 }
