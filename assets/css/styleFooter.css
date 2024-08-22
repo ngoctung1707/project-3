@@ -738,6 +738,11 @@ a {
   height: 32px;
   border-radius: 50%;
   background: #fff;
+  transition: 0.25s;
+}
+
+.social__icon--bg:hover {
+  transform: scale(1.2);
 }
 
 .facebook {
@@ -783,6 +788,7 @@ a {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.86; /* 185.714% */
+  outline: none;
 }
 
 .subcribe__type::placeholder {
